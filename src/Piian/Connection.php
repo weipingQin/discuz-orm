@@ -32,7 +32,7 @@ class Connection
             'charset'   => $db['dbcharset'],
             'prefix'    => $db['tablepre'],
         ];
-        $names = ['default','common', 'forum', 'home', 'portal', 'security'];
+        $names = ['default','common', 'connect', 'forum', 'home', 'mobile', 'portal', 'security', 'ucenter'];
         $connections = [];
         foreach ($names as $name) {
             $connect = $database;
