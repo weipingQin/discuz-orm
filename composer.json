@@ -9,6 +9,7 @@
             "email": "ppiian@126.com"
         }
     ],
+    "version": "0.0.1",
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.3",
